@@ -30,18 +30,18 @@ Ferramentas como **AWS Cost Explorer**, **Azure Cost Management** ou **Google Cl
 
 ---
 
-# 🔧 Diagrama da Topologia da Solução
+#  Diagrama da Topologia da Solução
 O diagrama deve representar a arquitetura híbrida proposta, incluindo componentes locais (_on-premises_) e na nuvem.
 
-**🏠 On-premises:** Servidores legados, bases de dados locais, firewalls, switches e outras infraestruturas locais.
+** On-premises:** Servidores legados, bases de dados locais, firewalls, switches e outras infraestruturas locais.
 
-**☁️ Nuvem:** Instâncias de máquinas virtuais ou contêineres (**AWS EC2**, **Kubernetes**), balanceadores de carga (**AWS ALB**), bancos de dados gerenciados (**Amazon RDS**, **Azure SQL Database**) e serviços de armazenamento (**AWS S3**, **Azure Blob Storage**).
+** Nuvem:** Instâncias de máquinas virtuais ou contêineres (**AWS EC2**, **Kubernetes**), balanceadores de carga (**AWS ALB**), bancos de dados gerenciados (**Amazon RDS**, **Azure SQL Database**) e serviços de armazenamento (**AWS S3**, **Azure Blob Storage**).
 
-**🔗 Integração Híbrida:** Conexões **VPN**, **Direct Connect** (_AWS_) ou **ExpressRoute** (_Azure_) para comunicação segura entre os ambientes.
+** Integração Híbrida:** Conexões **VPN**, **Direct Connect** (_AWS_) ou **ExpressRoute** (_Azure_) para comunicação segura entre os ambientes.
 
 ---
 
-# ⚙️ Justificativa das Escolhas Tecnológicas
+#  Justificativa das Escolhas Tecnológicas
 ### 🔹 Nuvem
 A escolha de **AWS**, **Azure** ou **Google Cloud** é justificada pela flexibilidade, escalabilidade e suporte a múltiplos tipos de instâncias.
 
@@ -56,7 +56,7 @@ O uso dessas ferramentas permite automatizar a criação e gerenciamento da infr
 
 ---
 
-# 🤖 Automação via IaC (Terraform, Ansible)
+#  Automação via IaC (Terraform, Ansible)
 ### 🔹 Terraform
 Define a infraestrutura na nuvem (_instâncias, redes, balanceadores de carga, VPCs_).
 
@@ -65,7 +65,7 @@ Gerencia a configuração do software (_implantação de aplicativos, configura�
 
 ---
 
-# ⚠️ Plano de Disaster Recovery
+#  Plano de Disaster Recovery
 ### 🔹 Backup de Dados
 Utilize backups automatizados (_AWS RDS Automated Backups_, _Azure Backup_).
 
@@ -77,7 +77,7 @@ Realize simulações regulares para garantir a efetividade da recuperação.
 
 ---
 
-# 🔍 Monitoramento
+#  Monitoramento
 Utilize ferramentas como **Prometheus**, **Grafana**, **CloudWatch** (_AWS_) ou **Azure Monitor** para monitoramento contínuo.
 
 ---
@@ -96,5 +96,3 @@ Utilize ferramentas como **Prometheus**, **Grafana**, **CloudWatch** (_AWS_) ou 
 # 🏁 Conclusão
 A migração para um modelo híbrido exige uma abordagem equilibrada entre **otimização de custos, escalabilidade e segurança**. Tecnologias de nuvem, contêineres e **automação por IaC** são essenciais para garantir eficiência e robustez. **Monitoramento contínuo e um plano de Disaster Recovery** são fundamentais para garantir a continuidade dos negócios.
 ```
-
-Esse formato melhora a legibilidade e organização do conteúdo. Se precisar de ajustes ou inclusão de mais detalhes, é só me avisar! 🚀💡
